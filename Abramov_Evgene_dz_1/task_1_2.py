@@ -2,7 +2,6 @@ list_of_cubes = []
 for _num in range(1, 1000, 2):
     cube = _num ** 3
     list_of_cubes.append(cube)
-# print(list_of_cubes)
 
 total_sum = 0
 for _num in list_of_cubes:

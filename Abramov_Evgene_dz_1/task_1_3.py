@@ -1,8 +1,8 @@
-for _i in range(21):
-    if _i in [1]:
+for i in range(21):
+    if i in [1]:
         percent = 'процент'
-    elif _i in [2, 3, 4]:
+    elif i in [2, 3, 4]:
         percent = 'процента'
     else:
         percent = 'процентов'
-    print(f'{_i} {percent}')
+    print(f'{i} {percent}')
