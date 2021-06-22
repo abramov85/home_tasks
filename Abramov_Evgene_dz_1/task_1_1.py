@@ -1,5 +1,4 @@
 duration = int(input('duration: '))
-
 d = duration // 86400
 duration = duration % 86400
 h = duration // 3600
