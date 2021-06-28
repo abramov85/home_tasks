@@ -25,3 +25,22 @@ for _num in list_of_cubes:
     if not digit_sum % 7:
         total_sum += num_add_17
 print(total_sum)
+
+suma = 0
+list = []
+for i in range(1, 1001, 2):
+    n = i**3
+    list.append(n)
+# print(list)
+for n in list:
+
+    number = n
+    sum = 0
+
+    while (number != 0):
+        sum += number % 10
+        number = number // 10
+    # sum += 1
+    if sum % 7 == 0:
+        suma = suma + n
+print(suma)
